@@ -37,8 +37,8 @@ public class LoginUsingDDT {
 		driver.get("https://nichethyself.com/tourism/home.html");
 		driver.findElement(By.name("username")).sendKeys(userID);
 		driver.findElement(By.name("password")).sendKeys(password);
-		driver.findElement(By.name("password")).submit();
-		Thread.sleep(3000);
+//		driver.findElement(By.name("password")).submit();
+//		Thread.sleep(3000);
 	}
 
 	@BeforeMethod
