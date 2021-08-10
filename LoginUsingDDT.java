@@ -30,7 +30,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 
 public class LoginUsingDDT {
-	WebDriver driver;
+	WebDriver chromDriver;
 
 	@Test(dataProvider = "CSV")
 	public void nTLoginTest(String userID, String password) throws InterruptedException {
