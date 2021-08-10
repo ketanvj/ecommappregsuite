@@ -30,8 +30,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 
 public class LoginUsingDDT {
-	WebDriver chromDriver;
-
+	RemoteWebDriver driver;
 	@Test(dataProvider = "CSV")
 	public void nTLoginTest(String userID, String password) throws InterruptedException {
 		driver.get("https://nichethyself.com/tourism/home.html");
